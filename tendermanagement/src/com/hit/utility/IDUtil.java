@@ -14,8 +14,7 @@ public class IDUtil {
 		return tid;
 	}
 	
-	
-	public static String generateVendorId(){
+		public static String generateVendorId(){
 		String vid = null;
 		
 		SimpleDateFormat sdf=new SimpleDateFormat("yyyyMMddhhmmss");
